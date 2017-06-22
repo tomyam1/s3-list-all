@@ -1,0 +1,29 @@
+{
+  "name": "s3-list-all-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for listing all the objects of a AWS S3 bucket",
+  "main": "lib/listAllObjects.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "s3-list-all-cli": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomyam1/s3-list-all-cli.git"
+  },
+  "author": "Tom Tepez Yam <tomyam@tepez.co.il> (https://github.com/tepez)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomyam1/s3-list-all-cli/issues"
+  },
+  "homepage": "https://github.com/tomyam1/s3-list-all-cli#readme",
+  "dependencies": {
+    "aws-sdk": "^2.75.0",
+    "bluebird": "^3.5.0",
+    "csv": "^1.1.1",
+    "joi": "^10.6.0",
+    "yargs": "^8.0.2"
+  }
+}
